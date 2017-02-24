@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    min-height: 24em;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-box {
+    flex: none;
+    max-width: 50%;
+}

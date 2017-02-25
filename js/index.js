@@ -8,9 +8,9 @@ function Quote() {
 		$(".quote-text").html(quoteText);
 
 		if (quoteAuthor !== "") {
-			$(".quote-author").html(quoteAuthor);
+			$(".quote-author").html("~ " + quoteAuthor);
 		} else {
-			$(".quote-author").html("Unknown");
+			$(".quote-author").html("~ Unknown");
 		}
 		$("#tweet").attr("href", tweetLink(quoteText, quoteAuthor));
 	};
